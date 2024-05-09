@@ -1,0 +1,31 @@
+POST http://localhost:1729/user-api/user-signup
+Content-Type: application/json
+
+{
+    "username":"vamshi@12",
+    "password":"singam123"
+}
+
+###
+
+POST http://localhost:1729/user-api/user-signup
+Content-Type: application/json
+
+{
+    "username":"shashidhar",
+    "password":"shashi123"
+}
+
+###
+POST http://localhost:1729/employee-api/add-employee
+Content-Type: application/json
+
+{
+  "name": "SINGAM VAMSHI KRISHNA",
+  "email": "vamshikrishnasingam1523@gmail.com",
+  "mobileNo": "9550418316",
+  "designation": "Manager",
+  "gender": "Male",
+  "courses": [ "MCA" ],
+  "image": {}
+}

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@350;500&display=swap");
+
+body {
+  background-image: url("/public/media/backGround.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  font-family: "Barlow Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0px; /* Adjust the width as needed */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body {
+  overflow: overlay; /* Enable overlay scrolling */
+}
